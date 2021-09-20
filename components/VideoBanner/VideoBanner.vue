@@ -19,8 +19,9 @@
             </div>
             <h5 class="subtitle use-text-subtitle2">
               {{ $t('medicalLanding.banner_subtitle') }}
-            </h5>
-            <v-card class="search-banner">
+            </h5> 
+            <!-- ini search field ngga ke pake -->
+            <!-- <v-card class="search-banner"> 
               <v-text-field
                 :label="isMobile2 ? 'Search...' : 'Search doctor, medicines or clinic...'"
                 class="search"
@@ -35,7 +36,7 @@
                   </span>
                 </v-btn>
               </div>
-            </v-card>
+            </v-card> -->
           </div>
         </v-col>
         <v-col
@@ -112,7 +113,7 @@ export default {
   },
   data() {
     return {
-      videoId: 'sbef4EWb4js',
+      videoId: 'sbef4EWb4js', /* ini untuk ambil video video dari yt */
       playerVars: {
         autoplay: 1,
         controls: 0,

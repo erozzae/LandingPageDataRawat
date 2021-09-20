@@ -1,13 +1,13 @@
 const brand = {
   medical: {
-    name: 'Medical',
+    name: 'Data Rawat',
     desc: 'Veluxi Medical - Vue Single Landing Page Template',
     prefix: 'veluxi',
     footerText: 'Veluxi Theme - All Rights Reserved 2020',
-    logoText: 'Veluxi Medical',
+    logoText: 'Data Rawat',
     projectName: 'Medical Theme',
-    url: 'veluxi.ux-maestro.com/medical',
-    img: '/static/images/medical-logo.png',
+    // url: 'veluxi.ux-maestro.com/medical',
+    img: '/static/images/Logo-T.png',
     notifMsg:
       'Donec sit amet nulla sed arcu pulvinar ultricies commodo id ligula.'
   }
