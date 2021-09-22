@@ -51,7 +51,7 @@ export default () => {
         "about_quote": "Hemat waktu dan uang. Terima perawatan berkualitas, setiap saat",
         "services_title": "Fasilitas Kami",
         "services_button": "lihat detail",
-        "expertise_title": "Spesialisasi Kami",
+        "expertise_title": "Tujuan Kami",
         "expertise_subtitle": "Para dokter di The Online Clinic semuanya terdaftar di Dewan Medis Umum.",
         "expertise_paragraph": "Tim layanan pelanggan kami selalu tersedia untuk mendengarkan dan membantu. Jika Anda tidak puas, untuk alasan apa pun, kami akan mengembalikan biaya Anda. Karena kami percaya kebahagiaan adalah bagian besar dari kesehatan yang baik.",
         "testimonial_title": "testimonial",
