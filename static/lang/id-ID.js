@@ -33,8 +33,8 @@ export default () => {
       medicalLanding: {
         "header_about": "tentang",
         "header_facility": "fasilitas",
-        "header_ask-doctors": "tanya dokter",
-        "header_clinics": "klinik",
+        "header_our-expertise": "Tujuan",
+        "header_clinics": "Kontak",
         "header_contact": "kontak",
         "header_language": "bahasa",
         "header_theme": "mode tema",

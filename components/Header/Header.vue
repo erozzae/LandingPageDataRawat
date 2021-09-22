@@ -96,12 +96,12 @@
                   </v-btn>
                 </li>
                 <li>
-                  <v-btn
+                  <!-- <v-btn
                     :href="link.medical.contact"
                     text
                   >
                     {{ $t('medicalLanding.header_contact') }}
-                  </v-btn>
+                  </v-btn> -->
                 </li>
               </scrollactive>
             </div>

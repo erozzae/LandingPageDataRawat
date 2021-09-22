@@ -50,7 +50,7 @@
         </v-list-item>
       </v-list>
       <v-divider />
-      <v-list class="lang-menu">
+      <!-- <v-list class="lang-menu">
         <v-subheader>{{ $t('medicalLanding.header_language') }}</v-subheader>
         <v-list-item
           v-for="locale in $i18n.locales"
@@ -75,7 +75,7 @@
             </v-icon>
           </v-list-item-action>
         </v-list-item>
-      </v-list>
+      </v-list> -->
     </div>
   </v-menu>
 </template>
