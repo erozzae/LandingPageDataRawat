@@ -26,7 +26,7 @@
         >
           <expertise />
         </section>
-        <section
+        <!-- <section
           id="ask-doctors"
           :class="[isMobile ? 'space-top-short' : 'space-top']"
         >
@@ -40,7 +40,7 @@
         </section>
         <section class="space-top-short" id="call-to-action">
           <call-action />
-        </section>
+        </section> -->
         <section class="space-top-short" id="clinics">
           <clinics />
         </section>

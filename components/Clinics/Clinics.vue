@@ -70,28 +70,10 @@ export default {
     return {
       clinicData: [
         {
-          name: 'Central Clinic',
+          name: 'Data Rawat',
           phone: '+123 456 78 91',
           email: 'hello@luxi.com',
-          address: 'Lorem ipsum street no.14 Block A'
-        },
-        {
-          name: 'Dental Clinic',
-          phone: '+123 456 78 91',
-          email: 'hello@luxi.com',
-          address: 'Lorem ipsum street Block C - Vestibullum Building'
-        },
-        {
-          name: 'Mother and Baby Care',
-          phone: '+123 456 78 91',
-          email: 'hello@luxi.com',
-          address: 'Lorem ipsum street no.14 Block A'
-        },
-        {
-          name: 'Orthopedic Clinic',
-          phone: '+123 456 78 91',
-          email: 'hello@luxi.com',
-          address: 'Lorem ipsum street Block C - Vestibullum Building'
+          address: 'PT. Jenius Teknologi Indonesia Jl. Senayan Trade Center Lt. 2'
         }
       ],
       currentLocation: {},
