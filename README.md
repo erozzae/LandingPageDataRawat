@@ -1,6 +1,10 @@
 # `medical-theme`
 
-> TODO: description
+> TODO: 
+1. bikin login regist
+2. ubah warna
+3. ubah icon tab
+4. ganti video
 
 ## Installation
 
