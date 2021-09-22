@@ -59,7 +59,7 @@ export default () => {
         "cta_title": "Siap memulai?",
         "cta_subtitle": "Tidak ada ruang tunggu. Kami membuatnya mudah untuk mendapatkan perawatan kesehatan kapanpun dan dimanapun Anda inginkan",
         "cta_btn": "Buat Janji Sekarang!",
-        "clinic_title": "Klinik Kami",
+        "clinic_title": "Kontak Kami",
         "footer_paragraph": "Tidak terlalu bagus untuk menjadi kenyataan, hanya saja cara perawatan kesehatannya harus sederhana."
       }
     })
