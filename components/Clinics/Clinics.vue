@@ -30,9 +30,10 @@
             </u-animate-container>
           </div>
         </v-col>
-        <v-col cols="12" md="6" class="pa-6">
+        <v-col cols="12" md="6" class="pa-6"> 
           <v-card class="map">
-            <GMap
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57360.76366599341!2d106.7973327480584!3d-6.212469870922052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f148a2f9e9dd%3A0x302ae5df1a546941!2sSenayan%20Trade%20Center%20(STC)%2C%20Jl.%20Asia%20Afrika%20No.1-41%2C%20RT.1%2FRW.3%2C%20Gelora%2C%20Kecamatan%20Tanah%20Abang%2C%20Kota%20Jakarta%20Pusat%2C%20Daerah%20Khusus%20Ibukota%20Jakarta%2010270!5e0!3m2!1sid!2sid!4v1632319610091!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <!-- <GMap
               ref="gMap"
               :cluster="{options: {styles: clusterStyle}}"
               :center="{lat: locations[1].lat, lng: locations[1].lng}"
@@ -44,7 +45,7 @@
                 :key="location.id"
                 :position="{lat: location.lat, lng: location.lng}"
               />
-            </GMap>
+            </GMap> -->
           </v-card>
         </v-col>
       </v-row>
@@ -70,40 +71,40 @@ export default {
     return {
       clinicData: [
         {
-          name: 'Data Rawat',
+          name: 'PT. Jenius Teknologi Indonesia',
           phone: '+123 456 78 91',
           email: 'hello@luxi.com',
-          address: 'PT. Jenius Teknologi Indonesia Jl. Senayan Trade Center Lt. 2'
-        }
-      ],
-      currentLocation: {},
-      locations: [
-        {
-          lat: 44.933076,
-          lng: 15.629058
-        },
-        {
-          lat: 47.815,
-          lng: 15.9819
-        },
-        {
-          lat: 40.953076,
-          lng: 16.21
-        },
-        {
-          lat: 44.22,
-          lng: 16.98
-        }
-      ],
-      clusterStyle: [
-        {
-          url:
-            'https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png',
-          width: 56,
-          height: 56,
-          textColor: '#fff'
+          address: 'PT. Jenius Teknologi Indonesia Jl. Senayan Trade Center Lt. 2 | Unit 1046-1047 Jl. Asia Afrika No. 1, Jakarta Pusat 10270'
         }
       ]
+      // currentLocation: {},
+      // locations: [
+      //   {
+      //     lat: -6.227725,
+      //     lng: 106.798779
+      //   },
+      //   {
+      //     lat: 47.815,
+      //     lng: 15.9819
+      //   },
+      //   {
+      //     lat: 40.953076,
+      //     lng: 16.21
+      //   },
+      //   {
+      //     lat: 44.22,
+      //     lng: 16.98
+      //   }
+      // ],
+      // clusterStyle: [
+      //   {
+      //     url:
+      //       'https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png',
+      //     width: 56,
+      //     height: 56,
+      //     textColor: '#fff'
+      //   }
+      // ]
     }
   },
   computed: {

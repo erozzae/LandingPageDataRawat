@@ -21,9 +21,9 @@
   background: #dedede;
   overflow: hidden;
   width: 100%;
-  height: 700px;
+  height: 450px;
   ::v-deep .GMap > div {
-    height: 700px
+    height: 450px
   }
   @include breakpoints-up(md) {
     margin-top: $spacing10
