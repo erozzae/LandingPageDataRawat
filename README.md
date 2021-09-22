@@ -6,6 +6,7 @@ Nizan
 2. ubah warna
 3. ubah icon tab
 4. ganti video
+5. ganti logo data rawat jadi jpg
 
 ## Installation
 
