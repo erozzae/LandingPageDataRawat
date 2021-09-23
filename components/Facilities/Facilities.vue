@@ -70,7 +70,7 @@
 </style>
 
 <script>
-import imgApi from '~/static/images/imgAPI'
+import imgLogo1 from '~/static/images/data_rawat/foto_banner.jpg'
 import Card from '../Cards/Default'
 import TitleIcon from '../Title/WithIcon'
 
@@ -111,38 +111,15 @@ export default {
           title: 'Lorem Ipsum',
           desc:
             'Proin ac arcu nisl. Duis eu molestie lectus. Nam quis mauris faucibus, aliquet elit eu, rhoncus ipsum.',
-          img: imgApi.medical[3]
+          img: imgLogo1
         },
         {
           title: 'Etiam rhoncus',
           desc:
             'Proin quis pellentesque dui. Ut sed leo neque. Nullam aliquet iaculis neque a commodo.',
-          img: imgApi.medical[6]
-        },
-        {
-          title: 'Duis fermentum',
-          desc:
-            'Quisque consectetur lectus vel orci porttitor gravida ac eu erat. Nullam accumsan nibh tortor.',
-          img: imgApi.medical[5]
-        },
-        {
-          title: 'Lorem Ipsum',
-          desc:
-            'Proin ac arcu nisl. Duis eu molestie lectus. Nam quis mauris faucibus, aliquet elit eu, rhoncus ipsum.',
-          img: imgApi.medical[4]
-        },
-        {
-          title: 'Etiam rhoncus',
-          desc:
-            'Proin quis pellentesque dui. Ut sed leo neque. Nullam aliquet iaculis neque a commodo.',
-          img: imgApi.medical[3]
-        },
-        {
-          title: 'Duis fermentum',
-          desc:
-            'Quisque consectetur lectus vel orci porttitor gravida ac eu erat. Nullam accumsan nibh tortor.',
-          img: imgApi.medical[2]
+          img: imgLogo1
         }
+       
       ]
     }
   },

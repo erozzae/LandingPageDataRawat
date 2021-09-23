@@ -10,16 +10,17 @@
       <h6 class="title">{{ title }}</h6>
       <p>{{ desc }}</p>
     </div>
-    <v-btn
-      color="secondary"
-      class="button">
-      {{ button }}
-    </v-btn>
+    
   </v-card>
 </template>
 
 <style lang="scss" scoped>
 @import './card-style.scss';
+//<v-btn
+  //color="secondary"
+  //class="button">
+  //   //{{ button }}
+//</v-btn>
 </style>
 
 <script>
