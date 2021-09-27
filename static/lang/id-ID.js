@@ -32,7 +32,7 @@ export default () => {
       },
       medicalLanding: {
         "header_about": "tentang",
-        "header_facility": "fasilitas",
+        "header_facility": "Layanan", //*
         "header_our-expertise": "Tujuan",
         "header_clinics": "Kontak",
         "header_contact": "kontak",
@@ -41,15 +41,17 @@ export default () => {
         "header_dark": "gelap",
         "header_light": "terang",
         "banner_title": "Integrasi Data Rekam Medis",
+        //*
         "banner_subtitle": "Dapatkan kemudahan dalam memperoleh informasi resume medis dimanapun dan kapanpun. Mempercepat pasien dalam memperoleh pertolongan medis yang terbaik. ",
         "banner_search": "cari",
         "about_title": "Tentang kami",
-        "about_subtitle": "Kunjungi kami kapan saja untuk diagnosa dan perawatan dengan klinik online 24/7 kami.",
+        "about_subtitle": "Kunjungi kami kapan saja secara online 24/7.",
         "about_doctor": "Digital",
         "about_clinics": "Aman",
         "about_easy": "Mudah",
         "about_hours": "jam",
-        "about_quote": "Hemat waktu dan uang. Terima perawatan berkualitas, setiap saat",
+        //*
+        "about_quote": "Datarawat memiliki impian untuk bisa bekerjasama dan mengintegrasikan semua sistem informasi Layanan Kesehatan dalam kemudahan informasi data resume medis pasien. Dalam kondisi darurat, Datarawat hadir agar dapat memudahkan user dengan memberikan layanan Integrasi data Resume Medis pasien ke layanan kesehatan dimanapun dan kapanpun. Sehingga pasien bisa segera mendapatkan pertolongan yang semestinya tanpa menunggu informasi terkait Resume Medis user.",
         "services_title": "Layanan Kami",
         "services_button": "lihat detail",
         "expertise_title": "Tujuan Kami",

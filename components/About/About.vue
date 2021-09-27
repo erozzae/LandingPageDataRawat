@@ -28,7 +28,7 @@
 </style>
 
 <script>
-import imgAPI from '~/static/images/data_rawat/foto_banner.jpg'
+import imgAPI from '~/static/images/data_rawat/tentang.jpg' //mengubah gambar
 import Counter from '../Counter'
 import TitleDeco from '../Title/WithDecoration'
 
