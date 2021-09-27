@@ -50,6 +50,7 @@
     @include left($spacing10)
   }
   .title {
+    // color: aliceblue !important ;
     @include breakpoints-up(md) {
       @include margin-right($spacing5)
     }

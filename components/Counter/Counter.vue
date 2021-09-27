@@ -8,21 +8,35 @@
         <v-col md="4">
           <div class="counter-item deco">
             <div class="text">
-              <h3>
-                +200
-              </h3>
+              <div class="icon">
+                <img src="~static/images/data_rawat/keamanan.png" alt="error">
+              </div>
               <p>
                 {{ $t('medicalLanding.about_clinics') }}
               </p>
             </div>
           </div>
         </v-col>
+
+         <v-col md="4">
+          <div class="counter-item deco">
+            <div class="text">
+              <div class="icon">
+                <img src="~static/images/data_rawat/mudahDigunakan.png" alt="error">
+              </div>
+              <p>
+                {{ $t('medicalLanding.about_easy') }}
+              </p>
+            </div>
+          </div>
+        </v-col>
+
         <v-col md="4">
           <div class="counter-item deco">
             <div class="text">
-              <h3>
-                +500
-              </h3>
+              <div class="icon">
+                <img src="~static/images/data_rawat/digital.png" alt="error">
+              </div>
               <p>
                 {{ $t('medicalLanding.about_doctor') }}
               </p>

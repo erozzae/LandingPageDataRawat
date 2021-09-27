@@ -30,13 +30,18 @@ $font-medium: var(--font-medium);
 $font-bold: var(--font-bold);
 
 // Theme color palette primary
-$palette-primary-main: var(--v-primary-base);
-$palette-primary-light: var(--v-primarylight-base);
+// $palette-primary-main: var(--v-primary-base);
+$palette-primary-main: #14279B;
+$palette-primary-light: #14279B;
+// $palette-primary-light: var(--v-primarylight-base);
 $palette-primary-dark: var(--v-primarydark-base);
+// $palette-primary-dark: #1153fc;
 
 // Theme color palette secondary
-$palette-secondary-main: var(--v-secondary-base);
-$palette-secondary-light: var(--v-secondarylight-base);
+// $palette-secondary-main: var(--v-secondary-base);
+$palette-secondary-main: #1100ff;
+// $palette-secondary-light: var(--v-secondarylight-base);
+$palette-secondary-light: #9293f5;
 $palette-secondary-dark: var(--v-secondarydark-base);
 
 // Common color palette

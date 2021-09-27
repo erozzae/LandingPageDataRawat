@@ -11,10 +11,11 @@
           <h4 class="title-default use-text-subtitle">
             {{ $t('medicalLanding.about_subtitle') }}
           </h4>
-          <counter />
+          
           <blockquote>
             {{ $t('medicalLanding.about_quote') }}
           </blockquote>
+          <counter />
         </v-col>
       </v-row>
     </v-container>
@@ -27,14 +28,14 @@
 </style>
 
 <script>
-import imgAPI from '~/static/images/imgAPI'
+import imgAPI from '~/static/images/data_rawat/foto_banner.jpg'
 import Counter from '../Counter'
 import TitleDeco from '../Title/WithDecoration'
 
 export default {
   data() {
     return {
-      photo: imgAPI.medical[1]
+      photo: imgAPI
     }
   },
   components: {
