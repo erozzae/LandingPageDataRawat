@@ -40,7 +40,7 @@ export default () => {
         "header_theme": "mode tema",
         "header_dark": "gelap",
         "header_light": "terang",
-        "banner_title": "Integrasi Data Rekam Medis",
+        "banner_title": "Integrasi Rekam Medis",
         "banner_subtitle": "Dapatkan kemudahan dalam memperoleh informasi resume medis dimanapun dan kapanpun. Mempercepat pasien dalam memperoleh pertolongan medis yang terbaik. ",
         "banner_search": "cari",
         "about_title": "Tentang kami",
