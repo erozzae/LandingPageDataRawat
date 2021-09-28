@@ -70,7 +70,8 @@
 </style>
 
 <script>
-import imgLogo1 from '~/static/images/data_rawat/foto_banner.jpg'
+import imgLogo1 from '~/static/images/data_rawat/kasur.jpg'  //menambah gambar layanan1
+import imgLogo2 from '~/static/images/data_rawat/stetoskop.jpg' //menambah gambar layanan2
 import Card from '../Cards/Default'
 import TitleIcon from '../Title/WithIcon'
 
@@ -108,16 +109,16 @@ export default {
       },
       facilityList: [
         {
-          title: 'Lorem Ipsum',
+          title: 'Data Resume',
           desc:
-            'Proin ac arcu nisl. Duis eu molestie lectus. Nam quis mauris faucibus, aliquet elit eu, rhoncus ipsum.',
+            'Sistem integrasi transfer data Resume Medis User',
           img: imgLogo1
         },
         {
-          title: 'Etiam rhoncus',
+          title: 'lntegrasi Sistem',
           desc:
-            'Proin quis pellentesque dui. Ut sed leo neque. Nullam aliquet iaculis neque a commodo.',
-          img: imgLogo1
+            'Integrasi Sistem Informasi Manajemen layanan kesehatan',
+          img: imgLogo2
         }
        
       ]

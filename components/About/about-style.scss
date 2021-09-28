@@ -1,7 +1,7 @@
 .root {
   blockquote {
     margin: spacing(5, 4, 0);
-    font-size: 20px;
+    font-size: 17px; // ubah dari 20 ke 17
     font-style: italic;
     @include padding-left($spacing2);
     @include palette-text-secondary;
