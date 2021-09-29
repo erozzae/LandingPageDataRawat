@@ -12,9 +12,13 @@
             {{ $t('medicalLanding.about_subtitle') }}
           </h4>
           
-          <blockquote>
+          <!-- <blockquote>
             {{ $t('medicalLanding.about_quote') }}
-          </blockquote>
+          </blockquote> -->
+          <!-- mengubah tulisan penjelasan menjadi normal -->
+          <p class="title-default use-text-paragraph">
+              {{ $t('medicalLanding.about_quote') }}
+            </p>
           <counter />
         </v-col>
       </v-row>

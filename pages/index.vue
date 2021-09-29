@@ -31,14 +31,14 @@
           :class="[isMobile ? 'space-top-short' : 'space-top']"
         >
           <ask-doctors />
-        </section>
-        <section
+        </section> -->
+        <!-- <section
           id="testimonials"
           class="space-top-short"
         >
           <testimonials />
-        </section>
-        <section class="space-top-short" id="call-to-action">
+        </section> -->
+        <!-- <section class="space-top-short" id="call-to-action">
           <call-action />
         </section> -->
         <section class="space-top-short" id="clinics">

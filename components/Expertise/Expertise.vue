@@ -55,10 +55,11 @@
             lg="6"
             md="7"
           >
-            <h4 class="title-default use-text-subtitle">
+            <!-- <h4 class="title-default use-text-subtitle">
               {{ $t('medicalLanding.expertise_subtitle') }}
-            </h4>
-            <p class="desc use-text-paragraph">
+            </h4> -->
+            <!-- mengubah class yg tadinya use-text-paragraph menjadi use-text-subtitle2 -->
+            <p class="title-default use-text-subtitle">
               {{ $t('medicalLanding.expertise_paragraph') }}
             </p>
             <hidden point="xsDown">
@@ -121,15 +122,15 @@ export default {
         vertical: true
       },
       expertiseList: [
-        ['Dentist', 'Padriatic', 'Cardiology'],
-        ['Othopaedi', 'Traumatologi', 'Anestesiologi'],
-        ['Reumatologi', 'Andrologi', 'Ortodonsia'],
-        ['Dentist', 'Padriatic', 'Cardiology'],
-        ['Othopaedi', 'Traumatologi', 'Anestesiologi'],
-        ['Reumatologi', 'Andrologi', 'Ortodonsia'],
-        ['Dentist', 'Padriatic', 'Cardiology'],
-        ['Othopaedi', 'Traumatologi', 'Anestesiologi'],
-        ['Reumatologi', 'Andrologi', 'Ortodonsia']
+        // ['Dentist', 'Padriatic', 'Cardiology'],
+        // ['Othopaedi', 'Traumatologi', 'Anestesiologi'],
+        // ['Reumatologi', 'Andrologi', 'Ortodonsia'],
+        // ['Dentist', 'Padriatic', 'Cardiology'],
+        // ['Othopaedi', 'Traumatologi', 'Anestesiologi'],
+        // ['Reumatologi', 'Andrologi', 'Ortodonsia'],
+        // ['Dentist', 'Padriatic', 'Cardiology'],
+        // ['Othopaedi', 'Traumatologi', 'Anestesiologi'],
+        // ['Reumatologi', 'Andrologi', 'Ortodonsia']
       ]
     }
   },

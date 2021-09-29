@@ -60,6 +60,7 @@
     @media (min-width: 1400px) {
       @include margin-right($spacing5 * -1)
     }
+    text-align: center; //mengubah "layanan kami" ke posisi center
   }
 }
 

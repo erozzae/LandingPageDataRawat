@@ -26,19 +26,29 @@
       padding: spacing(0, 3);
     }
   }
+
+  
+
   p {
     font-size: 22px;
     text-transform: capitalize;
     border-radius: 40px 0 0 40px;
     min-width: 150px;
     @include breakpoints-up(sm) {
-      text-align: left;
+      //text-align: left;
     }
     @include breakpoints-down(md) {
       min-width: 100px;
       font-size: 18px;
     }
   }
+  
+  .left p{
+    @include breakpoints-up(sm) {
+      text-align: left;
+    }
+  }
+
   @include breakpoints-down(md) {
     min-width: 100px;
     font-size: 18px;
