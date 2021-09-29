@@ -1,12 +1,12 @@
 # `medical-theme`
 
 > TODO: 
-Nizan
+<!-- Nizan
 1. bikin login regist
 2. ubah warna
 3. ubah icon tab
 4. ganti video
-5. ganti logo data rawat jadi jpg
+5. ganti logo data rawat jadi jpg -->
 
 ## Installation
 

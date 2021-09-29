@@ -230,82 +230,58 @@
   }
 }
 
-.search-banner {
-  margin-top: $spacing3;
-  font-size: 18px;
-  overflow: visible;
-  &.v-card:not(.v-sheet--tile):not(.v-card--shaped) {
-    border-radius: 75px;
-  }
-  @include breakpoints-up(md) {
-    width: 700px;
-    max-width: none;
-  }
-  @include breakpoints-down(xs) {
-    margin-top: $spacing4
-  }
-  ::v-deep .v-text-field--filled > .v-input__control > .v-input__slot {
-    background: none !important;
-    min-height: 0;
-    padding: 0 !important;
-    .v-input__append-inner {
-      margin-top: 4px
-    }
-    &:before, &:after {
-      display: none;
-    }
-  }
-  ::v-deep .v-text-field--filled .v-label--active, .v-text-field--full-width .v-label--active {
-    transform: translateY(-18px) scale(0.75);
-    transform-origin: top left;
-  }
-}
+// .search-banner {
+//   margin-top: $spacing1;
+//   font-size: 18px;
+//   overflow: visible;
+//   &.v-card:not(.v-sheet--tile):not(.v-card--shaped) {
+//     border-radius: 75px;
+//   }
+//   @include breakpoints-up(md) {
+//     width: 70px;
+//     max-width: none;
+//   }
+//   @include breakpoints-down(xs) {
+//     margin-top: $spacing1
+//   }
+//   ::v-deep .v-text-field--filled > .v-input__control > .v-input__slot {
+//     background: none !important;
+//     min-height: 0;
+//     padding: 0 !important;
+//     .v-input__append-inner {
+//       margin-top: 4px
+//     }
+//     &:before, &:after {
+//       display: none;
+//     }
+//   }
+//   ::v-deep .v-text-field--filled .v-label--active, .v-text-field--full-width .v-label--active {
+//     transform: translateY(-18px) scale(0.75);
+//     transform-origin: top left;
+//   }
+// }
 
-.search {
-  font-size: 18px;
-  width: 100%;
-  ::v-deep &.v-text-field {
-    input {
-      margin: 0;
-      border-radius: 75px;
-      padding: $spacing2;
-      max-height: none;
-      height: 75px;
-      @include breakpoints-up(md) {
-        padding: spacing(4, 30, 3, 3)
-      }
-      &:focus {
-        @include use-theme(box-shadow, var(--v-primarylight-base) 0 0 0 0.4rem, var(--v-primarydark-base) 0 0 0 0.4rem)
-      }
-    }
-  }
-  ::v-deep label {
-    @include left($spacing3 !important);
-    top: 28px;
-  }
-}
-
-.action {
-  position: absolute;
-  @include right(0);
-  top: 0;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  padding: $spacing2;
-}
+// .action {
+//   position: absolute;
+//   @include right(0);
+//   top: 0;
+//   height: 100%;
+//   display: flex;
+//   align-items: center;
+//   padding: $spacing2;
+// }
 
 .button {
   &.v-btn:not(.v-btn--round).v-size--default {
-    width: 100px;
-    height: 48px;
-    line-height: 48px;
+    width: 50px;
+    height: 20px;
+    line-height: 18px;
     align-items: center;
     padding: 2px 28px;
     box-sizing: content-box;
     @include breakpoints-down(xs) {
       padding: 2px;
-      width: 50px;
+      width: 30px;
       background: none !important;
       box-shadow: none;
       color: $palette-primary-main;

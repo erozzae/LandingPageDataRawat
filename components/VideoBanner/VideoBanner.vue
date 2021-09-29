@@ -21,14 +21,14 @@
               {{ $t('medicalLanding.banner_subtitle') }}
             </h5> 
             <!-- ini search field ngga ke pake -->
-            <!-- <v-card class="search-banner"> 
-              <v-text-field
+            <!-- <v-card class="search-banner">  -->
+              <!-- <v-text-field
                 :label="isMobile2 ? 'Search...' : 'Search doctor, medicines or clinic...'"
                 class="search"
                 hide-details
                 filled
-              />
-              <div class="action">
+              /> -->
+              <!-- <div class="action">
                 <v-btn class="button" color="secondary">
                   <v-icon v-if="isMobile" class="icon">mdi-magnify</v-icon>
                   <span v-if="isDesktop">

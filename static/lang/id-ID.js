@@ -31,6 +31,8 @@ export default () => {
         notif_msg: 'Ini adalah contoh pesan yang biasa digunakan untuk informasi penting kepada pengunjung atau pengguna. Silahkan klik tombol disamping untuk menutup pesan ini.'
       },
       medicalLanding: {
+        "header_register": "Daftar",
+        "header_login": "Login",
         "header_about": "tentang",
         "header_facility": "Layanan", //*
         "header_our-expertise": "Tujuan",
