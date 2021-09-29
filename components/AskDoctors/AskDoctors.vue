@@ -88,11 +88,11 @@ export default {
       loaded: false,
       item: 0,
       categories: [
-        'all',
-        'Orthopedic',
-        'Nutritionist',
-        'Pediatric',
-        'Anaesthestic'
+        // 'all',
+        // 'Orthopedic',
+        // 'Nutritionist',
+        // 'Pediatric',
+        // 'Anaesthestic'
       ],
       doctorsData: [
         {

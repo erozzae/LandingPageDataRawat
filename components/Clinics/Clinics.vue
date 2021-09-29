@@ -76,7 +76,7 @@ export default {
           name: 'PT. Jenius Teknologi Indonesia',
           phone: '+62859106539635',
           email: 'info.datarawat@gmail.com',
-          address: 'Jl. Senayan Trade Center Lt. 2 | Unit 1046-1047 Jl. Asia Afrika No. 1, Jakarta Pusat 10270'
+          address: 'Senayan Trade Center Lt. 2 | Unit 1046-1047 Jl. Asia Afrika No. 1, Jakarta Pusat 10270'
         }
       ]
       // currentLocation: {},
