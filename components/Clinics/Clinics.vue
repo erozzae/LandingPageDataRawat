@@ -12,7 +12,9 @@
           </h4>
           <div class="block">
             <u-animate-container>
-              <div v-for="(item, index) in clinicData">
+              <!-- menambah key -->
+              <div v-for="(item, index) in clinicData"
+              :key="index">
                 <u-animate
                   :offset="-50"
                   :delay="(index * 0.3) + 's'"
@@ -72,9 +74,9 @@ export default {
       clinicData: [
         {
           name: 'PT. Jenius Teknologi Indonesia',
-          phone: '+123 456 78 91',
-          email: 'hello@luxi.com',
-          address: 'PT. Jenius Teknologi Indonesia Jl. Senayan Trade Center Lt. 2 | Unit 1046-1047 Jl. Asia Afrika No. 1, Jakarta Pusat 10270'
+          phone: '+62859106539635',
+          email: 'info.datarawat@gmail.com',
+          address: 'Jl. Senayan Trade Center Lt. 2 | Unit 1046-1047 Jl. Asia Afrika No. 1, Jakarta Pusat 10270'
         }
       ]
       // currentLocation: {},
