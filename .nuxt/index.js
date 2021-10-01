@@ -12,11 +12,11 @@ import { createStore } from './store.js'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_2f547991 from 'nuxt_plugin_plugin_2f547991' // Source: .\\vuetify\\plugin.js (mode: 'all')
-import nuxt_plugin_pluginrouting_6f88deda from 'nuxt_plugin_pluginrouting_6f88deda' // Source: .\\nuxt-i18n\\plugin.routing.js (mode: 'all')
-import nuxt_plugin_pluginmain_fd8b4888 from 'nuxt_plugin_pluginmain_fd8b4888' // Source: .\\nuxt-i18n\\plugin.main.js (mode: 'all')
-import nuxt_plugin_nuxtgooglemaps_06a06731 from 'nuxt_plugin_nuxtgooglemaps_06a06731' // Source: .\\nuxt-google-maps.js (mode: 'all')
-import nuxt_plugin_nuxtmq_2af2bd24 from 'nuxt_plugin_nuxtmq_2af2bd24' // Source: .\\nuxt-mq.js (mode: 'all')
+import nuxt_plugin_plugin_ae00332e from 'nuxt_plugin_plugin_ae00332e' // Source: .\\vuetify\\plugin.js (mode: 'all')
+import nuxt_plugin_pluginrouting_f6f2612a from 'nuxt_plugin_pluginrouting_f6f2612a' // Source: .\\nuxt-i18n\\plugin.routing.js (mode: 'all')
+import nuxt_plugin_pluginmain_f3c96838 from 'nuxt_plugin_pluginmain_f3c96838' // Source: .\\nuxt-i18n\\plugin.main.js (mode: 'all')
+import nuxt_plugin_nuxtgooglemaps_79b803ee from 'nuxt_plugin_nuxtgooglemaps_79b803ee' // Source: .\\nuxt-google-maps.js (mode: 'all')
+import nuxt_plugin_nuxtmq_266510d4 from 'nuxt_plugin_nuxtmq_266510d4' // Source: .\\nuxt-mq.js (mode: 'all')
 import nuxt_plugin_vuewowconfig_32ee3066 from 'nuxt_plugin_vuewowconfig_32ee3066' // Source: ..\\plugins\\vue-wow-config (mode: 'all')
 import nuxt_plugin_vuefragmentconfig_12a6b83c from 'nuxt_plugin_vuefragmentconfig_12a6b83c' // Source: ..\\plugins\\vue-fragment-config (mode: 'all')
 import nuxt_plugin_vueyoutubeconfig_52b5d649 from 'nuxt_plugin_vueyoutubeconfig_52b5d649' // Source: ..\\plugins\\vue-youtube-config (mode: 'client')
@@ -69,7 +69,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"htmlAttrs":{"dir":"ltr"},"title":"Data Rawat","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"name":"description","content":"Veluxi Medical - Vue Single Landing Page Template"},{"name":"msapplication-TileColor","content":"#FFFFFF"},{"name":"msapplication-TileImage","content":"\u002Ffavicons\u002Fms-icon-144x144.png"},{"name":"theme-color","content":"#03a9f4"},{"property":"author","content":"luxi"},{"property":"og:site_name","content":"luxi.ux-maestro.com"},{"property":"og:locale","content":"en_US"},{"property":"og:type","content":"website"},{"property":"twitter:site","content":"luxi.ux-maestro.com"},{"property":"twitter:domain","content":"luxi.ux-maestro.com"},{"property":"twitter:creator","content":"luxi"},{"property":"twitter:card","content":"summary"},{"property":"twitter:image:src","content":"\u002Fimages\u002Flogo.png"},{"property":"og:url","content":undefined},{"property":"og:title","content":"Medical Theme"},{"property":"og:description","content":"Veluxi Medical - Vue Single Landing Page Template"},{"name":"twitter:site","content":undefined},{"name":"twitter:card","content":"summary_large_image"},{"name":"twitter:image","content":"\u002Fstatic\u002Fimages\u002FLogo-T.png"},{"property":"og:image","content":"\u002Fstatic\u002Fimages\u002FLogo-T.png"},{"property":"og:image:width","content":"1200"},{"property":"og:image:height","content":"630"}],"link":[{"rel":"shortcut icon","href":"\u002Ffavicons\u002Ffavicon.ico"},{"rel":"apple-touch-icon","sizes":"57x57","href":"\u002Ffavicons\u002Fapple-icon-57x57.png"},{"rel":"apple-touch-icon","sizes":"60x60","href":"\u002Ffavicons\u002Fapple-icon-60x60.png"},{"rel":"apple-touch-icon","sizes":"72x72","href":"\u002Ffavicons\u002Fapple-icon-72x72.png"},{"rel":"apple-touch-icon","sizes":"76x76","href":"\u002Ffavicons\u002Fapple-icon-76x76.png"},{"rel":"apple-touch-icon","sizes":"114x114","href":"\u002Ffavicons\u002Fapple-icon-114x114.png"},{"rel":"apple-touch-icon","sizes":"120x120","href":"\u002Ffavicons\u002Fapple-icon-120x120.png"},{"rel":"apple-touch-icon","sizes":"144x144","href":"\u002Ffavicons\u002Fapple-icon-144x144.png"},{"rel":"apple-touch-icon","sizes":"152x152","href":"\u002Ffavicons\u002Fapple-icon-152x152.png"},{"rel":"apple-touch-icon","sizes":"180x180","href":"\u002Ffavicons\u002Fapple-icon-180x180.png"},{"rel":"icon","type":"image\u002Fpng","sizes":"192x192","href":"\u002Ffavicons\u002Fandroid-icon-192x192.png"},{"rel":"icon","type":"image\u002Fpng","sizes":"32x32","href":"\u002Ffavicons\u002Ffavicon-32x32.png"},{"rel":"icon","type":"image\u002Fpng","sizes":"96x96","href":"\u002Ffavicons\u002Ffavicon-96x96.png"},{"rel":"icon","type":"image\u002Fpng","sizes":"16x16","href":"\u002Ffavicons\u002Ffavicon-16x16.png"},{"rel":"manifest","href":"\u002Ffavicons\u002Fmanifest.json"},{"rel":"stylesheet","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Lato:400,700,900&display=swap"},{"rel":"stylesheet","href":"https:\u002F\u002Ffonts.googleapis.com\u002Ficon?family=Material+Icons"},{"rel":"stylesheet","href":"https:\u002F\u002Fcode.ionicframework.com\u002Fionicons\u002F2.0.1\u002Fcss\u002Fionicons.min.css"},{"rel":"stylesheet","type":"text\u002Fcss","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Roboto:100,300,400,500,700,900&display=swap"},{"rel":"stylesheet","type":"text\u002Fcss","href":"https:\u002F\u002Fcdn.jsdelivr.net\u002Fnpm\u002F@mdi\u002Ffont@latest\u002Fcss\u002Fmaterialdesignicons.min.css"}],"style":[],"script":[]},
+    head: {"htmlAttrs":{"dir":"ltr"},"title":"Data Rawat","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"name":"description","content":"Veluxi Medical - Vue Single Landing Page Template"},{"name":"msapplication-TileColor","content":"#FFFFFF"},{"name":"msapplication-TileImage","content":"\u002FlogoNoBolong.ico"},{"name":"theme-color","content":"#03a9f4"},{"property":"author","content":"luxi"},{"property":"og:site_name","content":"luxi.ux-maestro.com"},{"property":"og:locale","content":"en_US"},{"property":"og:type","content":"website"},{"property":"twitter:site","content":"luxi.ux-maestro.com"},{"property":"twitter:domain","content":"luxi.ux-maestro.com"},{"property":"twitter:creator","content":"luxi"},{"property":"twitter:card","content":"summary"},{"property":"twitter:image:src","content":"\u002Fimages\u002Flogo.png"},{"property":"og:url","content":undefined},{"property":"og:title","content":"Medical Theme"},{"property":"og:description","content":"Veluxi Medical - Vue Single Landing Page Template"},{"name":"twitter:site","content":undefined},{"name":"twitter:card","content":"summary_large_image"},{"name":"twitter:image","content":"\u002Fstatic\u002Fimages\u002FLogo-T.png"},{"property":"og:image","content":"\u002Fstatic\u002Fimages\u002FLogo-T.png"},{"property":"og:image:width","content":"1200"},{"property":"og:image:height","content":"630"}],"link":[{"rel":"shortcut icon","href":"logoNoBolong.ico"},{"rel":"stylesheet","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Lato:400,700,900&display=swap"},{"rel":"stylesheet","href":"https:\u002F\u002Ffonts.googleapis.com\u002Ficon?family=Material+Icons"},{"rel":"stylesheet","href":"https:\u002F\u002Fcode.ionicframework.com\u002Fionicons\u002F2.0.1\u002Fcss\u002Fionicons.min.css"},{"rel":"stylesheet","type":"text\u002Fcss","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Roboto:100,300,400,500,700,900&display=swap"},{"rel":"stylesheet","type":"text\u002Fcss","href":"https:\u002F\u002Fcdn.jsdelivr.net\u002Fnpm\u002F@mdi\u002Ffont@latest\u002Fcss\u002Fmaterialdesignicons.min.css"}],"style":[],"script":[]},
 
     store,
     router,
@@ -198,24 +198,24 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_2f547991 === 'function') {
-    await nuxt_plugin_plugin_2f547991(app.context, inject)
+  if (typeof nuxt_plugin_plugin_ae00332e === 'function') {
+    await nuxt_plugin_plugin_ae00332e(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_pluginrouting_6f88deda === 'function') {
-    await nuxt_plugin_pluginrouting_6f88deda(app.context, inject)
+  if (typeof nuxt_plugin_pluginrouting_f6f2612a === 'function') {
+    await nuxt_plugin_pluginrouting_f6f2612a(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_pluginmain_fd8b4888 === 'function') {
-    await nuxt_plugin_pluginmain_fd8b4888(app.context, inject)
+  if (typeof nuxt_plugin_pluginmain_f3c96838 === 'function') {
+    await nuxt_plugin_pluginmain_f3c96838(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_nuxtgooglemaps_06a06731 === 'function') {
-    await nuxt_plugin_nuxtgooglemaps_06a06731(app.context, inject)
+  if (typeof nuxt_plugin_nuxtgooglemaps_79b803ee === 'function') {
+    await nuxt_plugin_nuxtgooglemaps_79b803ee(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_nuxtmq_2af2bd24 === 'function') {
-    await nuxt_plugin_nuxtmq_2af2bd24(app.context, inject)
+  if (typeof nuxt_plugin_nuxtmq_266510d4 === 'function') {
+    await nuxt_plugin_nuxtmq_266510d4(app.context, inject)
   }
 
   if (typeof nuxt_plugin_vuewowconfig_32ee3066 === 'function') {
