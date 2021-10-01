@@ -38,9 +38,9 @@
         >
           <testimonials />
         </section> -->
-        <!-- <section class="space-top-short" id="call-to-action">
+        <section class="space-top-short" id="call-to-action">
           <call-action />
-        </section> -->
+        </section>
         <section class="space-top-short" id="clinics">
           <clinics />
         </section>

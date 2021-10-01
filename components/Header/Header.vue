@@ -96,6 +96,7 @@
                   </v-btn>
                 </li>
                 <li>
+                  
                   <!-- <v-btn
                     :href="link.medical.contact"
                     text
@@ -105,7 +106,26 @@
                 </li>
               </scrollactive>
             </div>
+            <v-btn class="button" href="https://datarawat.com/register" target="_blank" > 
+              {{ $t('medicalLanding.header_register') }}
+            </v-btn>
+            <v-btn class="button" href="https://datarawat.com/login" target="_blank" > 
+              {{ $t('medicalLanding.header_login') }}
+            </v-btn>
+            
+          
             <setting-menu :invert="invert" />
+
+            <!-- <v-card class="search-banner"> 
+              <div class="action">
+                <v-btn class="button" color="secondary">
+                  <v-icon v-if="isMobile" class="icon">mdi-magnify</v-icon>
+                  <span v-if="isDesktop">
+                    {{ $t('medicalLanding.banner_search') }}
+                  </span>
+                </v-btn>
+              </div>
+            </v-card> -->
           </nav>
         </div>
       </v-container>

@@ -31,6 +31,8 @@ export default () => {
         notif_msg: 'Ini adalah contoh pesan yang biasa digunakan untuk informasi penting kepada pengunjung atau pengguna. Silahkan klik tombol disamping untuk menutup pesan ini.'
       },
       medicalLanding: {
+        "header_register": "Daftar",
+        "header_login": "Login",
         "header_about": "tentang",
         "header_facility": "Layanan", //*
         "header_our-expertise": "Tujuan",
@@ -58,8 +60,8 @@ export default () => {
         "expertise_paragraph": "Datarawat memiliki tujuan agar dapat bekerjasama dan mengintegrasikan semua sistem informasi Layanan Kesehatan dalam kemudahan informasi data resume medis pasien.",
         "testimonial_title": "testimonial",
         "ask_doctors": "Kelebihan",
-        "cta_title": "Siap memulai?",
-        "cta_subtitle": "Tidak ada ruang tunggu. Kami membuatnya mudah untuk mendapatkan perawatan kesehatan kapanpun dan dimanapun Anda inginkan",
+        "cta_title": "Ingin memulai?",
+        "cta_subtitle": "Download segera aplikasi datarawat",
         "cta_btn": "Buat Janji Sekarang!",
         "clinic_title": "Kontak Kami",
         "footer_paragraph": "Tidak terlalu bagus untuk menjadi kenyataan, hanya saja cara perawatan kesehatannya harus sederhana."
