@@ -70,8 +70,10 @@
 </style>
 
 <script>
-import imgLogo1 from '~/static/images/data_rawat/kasur.jpg'  //menambah gambar layanan1
+import imgLogo1 from '~/static/images/data_rawat/stetoskop2.jpg'  //menambah gambar layanan1
 import imgLogo2 from '~/static/images/data_rawat/stetoskop.jpg' //menambah gambar layanan2
+import imgLogo3 from '~/static/images/data_rawat/data.jpg' //menambah gambar layanan 3
+import imgLogo4 from '~/static/images/data_rawat/kasur.jpg'  //menambah gambar layanan1
 import Card from '../Cards/Default'
 import TitleIcon from '../Title/WithIcon'
 
@@ -117,8 +119,20 @@ export default {
         {
           title: 'lntegrasi Sistem',
           desc:
-            'Integrasi Sistem Informasi Manajemen layanan kesehatan',
+            'Integrasi sistem Informasi Manajemen layanan kesehatan',
           img: imgLogo2
+        },
+         {
+          title: 'Manajemen Data',
+          desc:
+            'Manajemen data dari pasien dan tentunya menggunakan prinsip kerahasian',
+          img: imgLogo3
+        },
+         {
+          title: 'Pendaftaran Pasien',
+          desc:
+            'Pendaftaran pasien mulai dari rawat jalan, rawat inap, dan IGD',
+          img: imgLogo4
         }
        
       ]
