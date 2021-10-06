@@ -439,15 +439,18 @@ paper-nav {
   &.v-btn:not(.v-btn--round) {
     background-color: $palette-secondary-light;
     color:$palette-common-white ;
-    width: 50px;
-    height: 20px;
-    line-height: 48px;
+    // width: 50px;
+    // height: 20px;
+    // line-height: 32px;
+    text-transform: capitalize;
     align-items: center;
     padding: 2px 28px;
     box-sizing: content-box;
+    font-size: 18px;
+
     @include breakpoints-down(xs) {
       padding: 2px 28px;
-      width: 50px;
+      width: 35px;
       background: $palette-secondary-light !important;
       box-shadow: none;
     }

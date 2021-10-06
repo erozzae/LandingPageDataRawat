@@ -13,6 +13,12 @@ $red-buble: '/images/medical/red_buble.png';
       margin-bottom: $spacing3
     }
   }
+  p{
+    font-size: 25px;
+    line-height: normal;
+    font-weight: lighter;//memodifikasi paragraf tujuan pada data rawat
+  }
+  padding-top: 100px;//memberikan jarak antara dengan section diatasnya
 }
 
 .background {
@@ -118,3 +124,4 @@ $red-buble: '/images/medical/red_buble.png';
     outline: none;
   }
 }
+
