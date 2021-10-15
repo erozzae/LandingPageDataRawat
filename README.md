@@ -1,12 +1,12 @@
 # `medical-theme`
 
 > TODO: 
-1. bikin login regist
+1. 
 2. ubah warna dark mode
-3. ubah icon tab
+3. 
 4. ganti video
 5. ubah footer
-6. isi konten tujuan
+6. 
 7. tammbah konten kelebihan
 
 ## Installation
