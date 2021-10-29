@@ -12,11 +12,11 @@ import { createStore } from './store.js'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_1aeac3b2 from 'nuxt_plugin_plugin_1aeac3b2' // Source: .\\vuetify\\plugin.js (mode: 'all')
-import nuxt_plugin_pluginrouting_31d51cae from 'nuxt_plugin_pluginrouting_31d51cae' // Source: .\\nuxt-i18n\\plugin.routing.js (mode: 'all')
-import nuxt_plugin_pluginmain_5d840266 from 'nuxt_plugin_pluginmain_5d840266' // Source: .\\nuxt-i18n\\plugin.main.js (mode: 'all')
-import nuxt_plugin_nuxtgooglemaps_56408372 from 'nuxt_plugin_nuxtgooglemaps_56408372' // Source: .\\nuxt-google-maps.js (mode: 'all')
-import nuxt_plugin_nuxtmq_0e92d998 from 'nuxt_plugin_nuxtmq_0e92d998' // Source: .\\nuxt-mq.js (mode: 'all')
+import nuxt_plugin_plugin_2f547991 from 'nuxt_plugin_plugin_2f547991' // Source: .\\vuetify\\plugin.js (mode: 'all')
+import nuxt_plugin_pluginrouting_6f88deda from 'nuxt_plugin_pluginrouting_6f88deda' // Source: .\\nuxt-i18n\\plugin.routing.js (mode: 'all')
+import nuxt_plugin_pluginmain_fd8b4888 from 'nuxt_plugin_pluginmain_fd8b4888' // Source: .\\nuxt-i18n\\plugin.main.js (mode: 'all')
+import nuxt_plugin_nuxtgooglemaps_06a06731 from 'nuxt_plugin_nuxtgooglemaps_06a06731' // Source: .\\nuxt-google-maps.js (mode: 'all')
+import nuxt_plugin_nuxtmq_2af2bd24 from 'nuxt_plugin_nuxtmq_2af2bd24' // Source: .\\nuxt-mq.js (mode: 'all')
 import nuxt_plugin_vuewowconfig_32ee3066 from 'nuxt_plugin_vuewowconfig_32ee3066' // Source: ..\\plugins\\vue-wow-config (mode: 'all')
 import nuxt_plugin_vuefragmentconfig_12a6b83c from 'nuxt_plugin_vuefragmentconfig_12a6b83c' // Source: ..\\plugins\\vue-fragment-config (mode: 'all')
 import nuxt_plugin_vueyoutubeconfig_52b5d649 from 'nuxt_plugin_vueyoutubeconfig_52b5d649' // Source: ..\\plugins\\vue-youtube-config (mode: 'client')
@@ -198,24 +198,24 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_1aeac3b2 === 'function') {
-    await nuxt_plugin_plugin_1aeac3b2(app.context, inject)
+  if (typeof nuxt_plugin_plugin_2f547991 === 'function') {
+    await nuxt_plugin_plugin_2f547991(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_pluginrouting_31d51cae === 'function') {
-    await nuxt_plugin_pluginrouting_31d51cae(app.context, inject)
+  if (typeof nuxt_plugin_pluginrouting_6f88deda === 'function') {
+    await nuxt_plugin_pluginrouting_6f88deda(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_pluginmain_5d840266 === 'function') {
-    await nuxt_plugin_pluginmain_5d840266(app.context, inject)
+  if (typeof nuxt_plugin_pluginmain_fd8b4888 === 'function') {
+    await nuxt_plugin_pluginmain_fd8b4888(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_nuxtgooglemaps_56408372 === 'function') {
-    await nuxt_plugin_nuxtgooglemaps_56408372(app.context, inject)
+  if (typeof nuxt_plugin_nuxtgooglemaps_06a06731 === 'function') {
+    await nuxt_plugin_nuxtgooglemaps_06a06731(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_nuxtmq_0e92d998 === 'function') {
-    await nuxt_plugin_nuxtmq_0e92d998(app.context, inject)
+  if (typeof nuxt_plugin_nuxtmq_2af2bd24 === 'function') {
+    await nuxt_plugin_nuxtmq_2af2bd24(app.context, inject)
   }
 
   if (typeof nuxt_plugin_vuewowconfig_32ee3066 === 'function') {

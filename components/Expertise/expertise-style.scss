@@ -14,11 +14,14 @@ $red-buble: '/images/medical/red_buble.png';
     }
   }
   p{
-    font-size: 25px;
+    font-size: 23px;
     line-height: normal;
-    font-weight: lighter;//memodifikasi paragraf tujuan pada data rawat
+    font-weight: 470%;//memodifikasi paragraf tujuan pada data rawat
+    margin: 80px 40px;
+    text-align: justify;
   }
-  padding-top: 100px;//memberikan jarak antara dengan section diatasnya
+  padding-bottom: $spacing19;//memberikan jarak antar section dibawahnya
+  padding-top: 50px;
 }
 
 .background {

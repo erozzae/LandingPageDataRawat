@@ -59,10 +59,10 @@
               {{ $t('medicalLanding.expertise_subtitle') }}
             </h4> -->
             <!-- mengubah class yg tadinya use-text-paragraph menjadi use-text-subtitle2 -->
-            <h4 class="title-default use-text-subtitle">
+            <!-- <h4 class="title-default use-text-subtitle">
                {{ $t('medicalLanding.expertise_tujuan') }}
-            </h4>
-            <p class="title-default use-text-subtitle">
+            </h4> -->
+            <p class="title-default use-text-paragraph">
               {{ $t('medicalLanding.expertise_paragraph') }}
             </p>
             <hidden point="xsDown">

@@ -2,127 +2,127 @@
   {
     "name": "index___ar",
     "path": "/ar",
-    "component": "D:\\\\proyek\\\\landing-page-data-rawat-group\\\\pages\\\\index.vue",
+    "component": "D:\\\\landing-page-data-rawat-group\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
-    "_name": "_212618cc"
+    "_name": "_1a36f9ec"
   },
   {
     "name": "blank-page___en",
     "path": "/blank-page",
-    "component": "D:\\\\proyek\\\\landing-page-data-rawat-group\\\\pages\\\\blank-page.vue",
+    "component": "D:\\\\landing-page-data-rawat-group\\\\pages\\\\blank-page.vue",
     "chunkName": "pages/blank-page",
-    "_name": "_1b28d2d0"
+    "_name": "_30c02084"
   },
   {
     "name": "contact___en",
     "path": "/contact",
-    "component": "D:\\\\proyek\\\\landing-page-data-rawat-group\\\\pages\\\\contact.vue",
+    "component": "D:\\\\landing-page-data-rawat-group\\\\pages\\\\contact.vue",
     "chunkName": "pages/contact",
-    "_name": "_8d61e830"
+    "_name": "_59b0c5ba"
   },
   {
     "name": "index___de",
     "path": "/de",
-    "component": "D:\\\\proyek\\\\landing-page-data-rawat-group\\\\pages\\\\index.vue",
+    "component": "D:\\\\landing-page-data-rawat-group\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
-    "_name": "_212618cc"
+    "_name": "_1a36f9ec"
   },
   {
     "name": "index___id",
     "path": "/id",
-    "component": "D:\\\\proyek\\\\landing-page-data-rawat-group\\\\pages\\\\index.vue",
+    "component": "D:\\\\landing-page-data-rawat-group\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
-    "_name": "_212618cc"
+    "_name": "_1a36f9ec"
   },
   {
     "name": "index___pt",
     "path": "/pt",
-    "component": "D:\\\\proyek\\\\landing-page-data-rawat-group\\\\pages\\\\index.vue",
+    "component": "D:\\\\landing-page-data-rawat-group\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
-    "_name": "_212618cc"
+    "_name": "_1a36f9ec"
   },
   {
     "name": "index___zh",
     "path": "/zh",
-    "component": "D:\\\\proyek\\\\landing-page-data-rawat-group\\\\pages\\\\index.vue",
+    "component": "D:\\\\landing-page-data-rawat-group\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
-    "_name": "_212618cc"
+    "_name": "_1a36f9ec"
   },
   {
     "name": "blank-page___ar",
     "path": "/ar/blank-page",
-    "component": "D:\\\\proyek\\\\landing-page-data-rawat-group\\\\pages\\\\blank-page.vue",
+    "component": "D:\\\\landing-page-data-rawat-group\\\\pages\\\\blank-page.vue",
     "chunkName": "pages/blank-page",
-    "_name": "_1b28d2d0"
+    "_name": "_30c02084"
   },
   {
     "name": "contact___ar",
     "path": "/ar/contact",
-    "component": "D:\\\\proyek\\\\landing-page-data-rawat-group\\\\pages\\\\contact.vue",
+    "component": "D:\\\\landing-page-data-rawat-group\\\\pages\\\\contact.vue",
     "chunkName": "pages/contact",
-    "_name": "_8d61e830"
+    "_name": "_59b0c5ba"
   },
   {
     "name": "blank-page___de",
     "path": "/de/blank-page",
-    "component": "D:\\\\proyek\\\\landing-page-data-rawat-group\\\\pages\\\\blank-page.vue",
+    "component": "D:\\\\landing-page-data-rawat-group\\\\pages\\\\blank-page.vue",
     "chunkName": "pages/blank-page",
-    "_name": "_1b28d2d0"
+    "_name": "_30c02084"
   },
   {
     "name": "contact___de",
     "path": "/de/contact",
-    "component": "D:\\\\proyek\\\\landing-page-data-rawat-group\\\\pages\\\\contact.vue",
+    "component": "D:\\\\landing-page-data-rawat-group\\\\pages\\\\contact.vue",
     "chunkName": "pages/contact",
-    "_name": "_8d61e830"
+    "_name": "_59b0c5ba"
   },
   {
     "name": "blank-page___id",
     "path": "/id/blank-page",
-    "component": "D:\\\\proyek\\\\landing-page-data-rawat-group\\\\pages\\\\blank-page.vue",
+    "component": "D:\\\\landing-page-data-rawat-group\\\\pages\\\\blank-page.vue",
     "chunkName": "pages/blank-page",
-    "_name": "_1b28d2d0"
+    "_name": "_30c02084"
   },
   {
     "name": "contact___id",
     "path": "/id/contact",
-    "component": "D:\\\\proyek\\\\landing-page-data-rawat-group\\\\pages\\\\contact.vue",
+    "component": "D:\\\\landing-page-data-rawat-group\\\\pages\\\\contact.vue",
     "chunkName": "pages/contact",
-    "_name": "_8d61e830"
+    "_name": "_59b0c5ba"
   },
   {
     "name": "blank-page___pt",
     "path": "/pt/blank-page",
-    "component": "D:\\\\proyek\\\\landing-page-data-rawat-group\\\\pages\\\\blank-page.vue",
+    "component": "D:\\\\landing-page-data-rawat-group\\\\pages\\\\blank-page.vue",
     "chunkName": "pages/blank-page",
-    "_name": "_1b28d2d0"
+    "_name": "_30c02084"
   },
   {
     "name": "contact___pt",
     "path": "/pt/contact",
-    "component": "D:\\\\proyek\\\\landing-page-data-rawat-group\\\\pages\\\\contact.vue",
+    "component": "D:\\\\landing-page-data-rawat-group\\\\pages\\\\contact.vue",
     "chunkName": "pages/contact",
-    "_name": "_8d61e830"
+    "_name": "_59b0c5ba"
   },
   {
     "name": "blank-page___zh",
     "path": "/zh/blank-page",
-    "component": "D:\\\\proyek\\\\landing-page-data-rawat-group\\\\pages\\\\blank-page.vue",
+    "component": "D:\\\\landing-page-data-rawat-group\\\\pages\\\\blank-page.vue",
     "chunkName": "pages/blank-page",
-    "_name": "_1b28d2d0"
+    "_name": "_30c02084"
   },
   {
     "name": "contact___zh",
     "path": "/zh/contact",
-    "component": "D:\\\\proyek\\\\landing-page-data-rawat-group\\\\pages\\\\contact.vue",
+    "component": "D:\\\\landing-page-data-rawat-group\\\\pages\\\\contact.vue",
     "chunkName": "pages/contact",
-    "_name": "_8d61e830"
+    "_name": "_59b0c5ba"
   },
   {
     "name": "index___en",
     "path": "/",
-    "component": "D:\\\\proyek\\\\landing-page-data-rawat-group\\\\pages\\\\index.vue",
+    "component": "D:\\\\landing-page-data-rawat-group\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
-    "_name": "_212618cc"
+    "_name": "_1a36f9ec"
   }
 ]
