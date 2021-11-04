@@ -58,7 +58,7 @@ export default () => {
         "expertise_title": "Tujuan Kami",
         "expertise_tujuan": "Tujuan Datarawat",
         "expertise_subtitle": "Datarawat memiliki tujuan",
-        "expertise_paragraph": "Datarawat memiliki tujuan agar dapat bekerjasama dan mengintegrasikan semua sistem informasi Layanan Kesehatan dalam kemudahan informasi data resume medis pasien.",
+        "expertise_paragraph": "Datarawat memiliki tujuan agar dapat bekerjasama dan mengintegrasikan semua sistem informasi Layanan Kesehatan dalam kemudahan berbagi informasi data resume medis pasien.",
         "testimonial_title": "testimonial",
         "ask_doctors": "Kelebihan",
         "cta_title": "Ingin memulai?",
