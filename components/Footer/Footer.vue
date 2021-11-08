@@ -112,7 +112,7 @@
             <span class="ion-social-linkedin icon" />
           </v-btn>
         </div>
-        <v-select
+        <!-- <v-select
           :items="langList"
           :value="lang"
           v-model="lang"
@@ -121,7 +121,7 @@
           class="select-lang"
           prepend-inner-icon="mdi-web"
           @change="switchLang(lang)"
-        />
+        /> -->
       </v-col>
     </v-row>
     <p class="body-2 text-center" v-if="isMobile">
@@ -146,17 +146,17 @@ export default {
     lang: 'en',
     footers: [
       {
-        title: 'Company',
-        description: ['Team', 'History', 'Contact us', 'Locations'],
+        title: 'Data Rawat',
+        description: ['Tentang', 'Layanan', 'Tujuan', 'Kontak & Alamat'],
         link: ['#team', '#history', '#contact-us', '#locations']
       },
       {
-        title: 'Resources',
+        title: 'Layanan',
         description: [
-          'Resource',
-          'Resource name',
-          'Another resource',
-          'Final resource'
+          'Data Resume',
+          'Integrasi Sistem',
+          'Manajemen Data',
+          'Pendaftaran'
         ],
         link: [
           '#resource',
