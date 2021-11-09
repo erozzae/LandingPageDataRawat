@@ -5,7 +5,7 @@ const brand = {
     prefix: 'veluxi',
     footerText: 'Veluxi Theme - All Rights Reserved 2020',
     logoText: 'Data Rawat',
-    projectName: 'Medical Theme',
+    projectName: 'Data Rawat',
     // url: 'veluxi.ux-maestro.com/medical',
     img: '/static/images/Logo-T.png',
     notifMsg:

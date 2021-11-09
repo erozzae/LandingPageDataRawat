@@ -18,10 +18,10 @@
         <p class="footer-desc pb-2">
           {{ $t('medicalLanding.footer_paragraph') }}
         </p>
-        <p class="body-2" v-if="isDesktop">
+        <!-- <p class="body-2" v-if="isDesktop">
           &copy;&nbsp;
           {{ brand.medical.footerText }}
-        </p>
+        </p> -->
       </v-col>
       <v-col
         class="pa-6"
@@ -112,7 +112,7 @@
             <span class="ion-social-linkedin icon" />
           </v-btn>
         </div>
-        <v-select
+        <!-- <v-select
           :items="langList"
           :value="lang"
           v-model="lang"
@@ -121,7 +121,7 @@
           class="select-lang"
           prepend-inner-icon="mdi-web"
           @change="switchLang(lang)"
-        />
+        /> -->
       </v-col>
     </v-row>
     <p class="body-2 text-center" v-if="isMobile">
@@ -136,7 +136,7 @@
 </style>
 
 <script>
-import logo from '~/static/images/medical-logo.svg'
+import logo from '~/static/images/Logo-T.png'
 import brand from '~/static/text/brand'
 
 export default {
@@ -146,17 +146,17 @@ export default {
     lang: 'en',
     footers: [
       {
-        title: 'Company',
-        description: ['Team', 'History', 'Contact us', 'Locations'],
+        title: 'Data Rawat',
+        description: ['Tentang', 'Layanan', 'Tujuan', 'Kontak & Alamat'],
         link: ['#team', '#history', '#contact-us', '#locations']
       },
       {
-        title: 'Resources',
+        title: 'Layanan',
         description: [
-          'Resource',
-          'Resource name',
-          'Another resource',
-          'Final resource'
+          'Data Resume',
+          'Integrasi Sistem',
+          'Manajemen Data',
+          'Pendaftaran'
         ],
         link: [
           '#resource',
@@ -166,9 +166,9 @@ export default {
         ]
       },
       {
-        title: 'Legal',
-        description: ['Privacy policy', 'Terms of use'],
-        link: ['#privacy-policy', '#terms-of-use']
+        title: 'Motto',//belum fix
+        description: ['Aman, Flexible, dan Terpercaya'],
+        link: ['#privacy-policy']
       }
     ]
   }),
