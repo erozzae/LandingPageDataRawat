@@ -18,10 +18,10 @@
         <p class="footer-desc pb-2">
           {{ $t('medicalLanding.footer_paragraph') }}
         </p>
-        <p class="body-2" v-if="isDesktop">
+        <!-- <p class="body-2" v-if="isDesktop">
           &copy;&nbsp;
           {{ brand.medical.footerText }}
-        </p>
+        </p> -->
       </v-col>
       <v-col
         class="pa-6"
@@ -136,7 +136,7 @@
 </style>
 
 <script>
-import logo from '~/static/images/medical-logo.svg'
+import logo from '~/static/images/Logo-T.png'
 import brand from '~/static/text/brand'
 
 export default {
@@ -166,9 +166,9 @@ export default {
         ]
       },
       {
-        title: 'Legal',
-        description: ['Privacy policy', 'Terms of use'],
-        link: ['#privacy-policy', '#terms-of-use']
+        title: 'Motto',//belum fix
+        description: ['Aman, Flexible, dan Terpercaya'],
+        link: ['#privacy-policy']
       }
     ]
   }),
