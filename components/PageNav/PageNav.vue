@@ -18,9 +18,10 @@
           class="anchor-link scrollactive-item"
           @click="setOffset(item.offset)"
         >
-          <v-tooltip
-            :nudge-top="23"
+        :nudge-top="23"
             left
+          <v-tooltip
+            
           >
             <template v-slot:activator="{ on }">
               <span v-on="on">{{ $t('medicalLanding.header_'+item.name) }}</span>

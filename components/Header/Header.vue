@@ -104,14 +104,15 @@
                     {{ $t('medicalLanding.header_contact') }}
                   </v-btn> -->
                 </li>
+                <v-btn class="button" href="https://datarawat.com/register" target="_blank" style="margin: 10px;" > 
+                    {{ $t('medicalLanding.header_register') }}
+                  </v-btn>
+                  <v-btn class="button" href="https://datarawat.com/login" target="_blank" style="margin: 10px;" > 
+                    {{ $t('medicalLanding.header_login') }}
+                  </v-btn>
               </scrollactive>
             </div>
-            <v-btn class="button" href="https://datarawat.com/register" target="_blank" style="margin: 10px;" > 
-              {{ $t('medicalLanding.header_register') }}
-            </v-btn>
-            <v-btn class="button" href="https://datarawat.com/login" target="_blank" style="margin: 10px;" > 
-              {{ $t('medicalLanding.header_login') }}
-            </v-btn>
+            
             
           
             <setting-menu :invert="invert" />

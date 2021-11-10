@@ -21,18 +21,42 @@
             </v-list-item-title>
           </v-list-item-content>
         </v-list-item>
-        <v-list-item
-          :href="link.medical.contact"
+          <!-- <v-btn class="button" href="https://datarawat.com/register" target="_blank" style="margin: 10px;" > 
+            {{ $t('medicalLanding.header_register') }}
+          </v-btn> -->
+          <v-btn class="button" href="https://datarawat.com/login" target="_blank" style="margin: 10px;" > 
+            {{ $t('medicalLanding.header_login') }}
+          </v-btn>
+        <!-- <v-list-item
+          :href="link.medical.register"
           link
-          :style="{ animationDuration: navMenu.length * 0.15 + 's' }"
+          
         >
           <v-list-item-content>
             <v-list-item-title class="menu-list">
-              {{ $t('medicalLanding.header_contact') }}
+              
+            </v-list-item-title>
+          </v-list-item-content>
+        </v-list-item> -->
+
+        
+      </v-list>
+      <v-list>
+        <v-list-item>
+          <v-list-item-content>
+            <v-list-item-title>
+                
+            </v-list-item-title>
+            
+          </v-list-item-content>
+          <v-list-item-content>
+            <v-list-item-title>
+              
             </v-list-item-title>
           </v-list-item-content>
         </v-list-item>
       </v-list>
+      
     </div>
   </div>
 </template>
