@@ -105,10 +105,20 @@
                   </v-btn> -->
                 </li>
                 <v-btn class="button" href="https://datarawat.com/register" target="_blank" style="margin: 10px;" > 
+                  <v-icon left>
+                    how_to_reg
+                  </v-icon>
+                  <span>
                     {{ $t('medicalLanding.header_register') }}
+                  </span>
                   </v-btn>
                   <v-btn class="button" href="https://datarawat.com/login" target="_blank" style="margin: 10px;" > 
+                  <v-icon left>
+                    login
+                  </v-icon>
+                  <span>
                     {{ $t('medicalLanding.header_login') }}
+                  </span>
                   </v-btn>
               </scrollactive>
             </div>

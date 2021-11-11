@@ -29,8 +29,15 @@
                 filled
               /> -->
               <div class="action">
+                
                 <v-btn v-if="isMobile" class="button" style="padding : 20px; margin: 10px;" href="https://datarawat.com/register" target="_blank">
-                  {{ $t('medicalLanding.header_register') }}
+                  <v-icon left>
+                    login
+                  </v-icon>
+                  <span>
+                    {{ $t('medicalLanding.header_login') }}
+                  </span>
+                  <!-- {{ $t('medicalLanding.header_register') }} -->
                   <span v-if="isDesktop">
                     
                   </span>
