@@ -32,10 +32,10 @@
                 
                 <v-btn v-if="isMobile" class="button" style="padding : 20px; margin: 10px;" href="https://datarawat.com/register" target="_blank">
                   <v-icon left>
-                    login
+                    how_to_reg
                   </v-icon>
                   <span>
-                    {{ $t('medicalLanding.header_login') }}
+                    {{ $t('medicalLanding.header_register') }}
                   </span>
                   <!-- {{ $t('medicalLanding.header_register') }} -->
                   <span v-if="isDesktop">
