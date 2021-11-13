@@ -61,7 +61,7 @@ export default () => {
         "expertise_paragraph": "Datarawat memiliki tujuan agar dapat bekerjasama dan mengintegrasikan semua sistem informasi Layanan Kesehatan dalam kemudahan berbagi informasi data resume medis pasien.",
         "testimonial_title": "testimonial",
         "ask_doctors": "Kelebihan",
-        "cta_title": "Ingin memulai?",
+        "cta_title": "Ingin Memulai?",
         "cta_subtitle": "Download segera aplikasi datarawat",
         "cta_btn": "Buat Janji Sekarang!",
         "clinic_title": "Kontak Kami",
