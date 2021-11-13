@@ -1,7 +1,8 @@
 const link = {
   medical: {
     home: '/',
-    contact: '/contact'
+    register: 'https://datarawat.com/register',
+    login: 'https://datarawat.com/login'
   }
 }
 

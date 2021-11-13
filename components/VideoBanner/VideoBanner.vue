@@ -28,15 +28,22 @@
                 hide-details
                 filled
               /> -->
-              <!-- <div class="action">
-                <v-btn class="button" color="secondary">
-                  <v-icon v-if="isMobile" class="icon">mdi-magnify</v-icon>
+              <div class="action">
+                
+                <v-btn v-if="isMobile" class="button" style="padding : 20px; margin: 10px;" href="https://datarawat.com/register" target="_blank">
+                  <v-icon left>
+                    login
+                  </v-icon>
+                  <span>
+                    {{ $t('medicalLanding.header_login') }}
+                  </span>
+                  <!-- {{ $t('medicalLanding.header_register') }} -->
                   <span v-if="isDesktop">
-                    {{ $t('medicalLanding.banner_search') }}
+                    
                   </span>
                 </v-btn>
               </div>
-            </v-card> -->
+            <!-- </v-card> -->
           </div>
         </v-col>
         <v-col
@@ -46,7 +53,8 @@
           class="pa-6 visual-content"
         >
           <div class="deco-banner">
-            <div class="menu-bg"></div>
+            <div class="menu-bg">
+            </div>
             <div class="video-bg"></div>
           </div>
           <div class="video-wrap">
@@ -65,7 +73,7 @@
                   </v-btn>
                 </hidden>
                 <img
-                  v-if="!play || isMobile"
+                  v-if="!play || isMobile || isTablet"
                   :src="cover"
                   alt="cover"
                 >
