@@ -82,7 +82,7 @@
       transform: scale(-1)
     }
     .theme--dark & {
-      color: $palette-primary-light
+      color: rgb(3, 85, 207)//$palette-primary-light // mengubah anak panah warna tombol geser
     }
     .theme--light & {
       color: $palette-primary-dark

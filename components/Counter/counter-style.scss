@@ -22,7 +22,7 @@
     }
     p {
       @include use-theme(background-color, $palette-secondary-light, $palette-secondary-main);
-      @include use-theme(color, $palette-common-white, $palette-common-black);
+      @include use-theme(color, $palette-common-white, $palette-common-white);
       padding: spacing(0, 3);
     }
   }

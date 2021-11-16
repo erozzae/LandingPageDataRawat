@@ -50,7 +50,7 @@
 
 .title-nav {
   .theme--dark & {
-    color: $palette-primary-light
+    color:rgb(3, 85, 207); //$palette-primary-light //mengubah tittle footer
   }
   .theme--light & {
     color: $palette-primary-main
@@ -84,7 +84,7 @@
   button {
     margin: $spacing1;
     .theme--dark & {
-      color: $palette-primary-light;
+      color:rgb(3, 85, 207); //$palette-primary-main; //mengubah warna icon medsos
       background: $dark-divider
     }
     .theme--light & {

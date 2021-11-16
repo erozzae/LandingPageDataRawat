@@ -137,7 +137,7 @@
       color: $palette-common-white
     }
     .theme--light & {
-      color: $palette-primary-dark
+      color: rgb(250, 248, 248)//$palette-primary-dark // Mengubah Warna tittle Pada layanan kami
     }
     font-weight: 700;
     text-transform: capitalize;
