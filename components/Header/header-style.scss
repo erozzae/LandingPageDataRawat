@@ -245,7 +245,7 @@ $flag: '/images/flag-logo.png';
           content: '';
           height: 5px;
           border-radius: 5px;
-          @include use-theme(background, $palette-primary-main, $palette-primary-light);
+          // @include use-theme(background, $palette-primary-main, $palette-primary-light);
           width: 0%;
           position: absolute;
           bottom: 0;
@@ -255,19 +255,20 @@ $flag: '/images/flag-logo.png';
         &:hover {
           transition: all 0.3s ease-out;
           background: none;
-          &:before {
-            opacity: 0
-          }
-          &:after {
-            width: 60%;
-            @include left(8px);
-            @include use-theme(border-bottom-color, $palette-primary-main, $palette-primary-light);
-          }
+          // background-color: $dark-text-hint;
+          // &:before {
+
+          // }
+          // &:after {
+          //   width: 60%;
+          //   @include left(8px);
+          //   @include use-theme(border-bottom-color, $palette-primary-main, $palette-primary-light);
+          // }
         }
         &.active {
-          @include use-theme(color, $palette-primary-dark, $palette-primary-light);
+          // @include use-theme(color, $palette-primary-dark, $palette-primary-light);
           &:after {
-            @include use-theme(border-bottom-color, $palette-primary-dark, $palette-primary-light);
+            // @include use-theme(border-bottom-color, $palette-primary-dark, $palette-primary-light);
             width: 60%;
             @include left(8px);
           }

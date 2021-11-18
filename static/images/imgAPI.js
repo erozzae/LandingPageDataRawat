@@ -42,7 +42,7 @@ const imgAPI = {
     '/images/avatars/pp_boy3.svg',
     '/images/avatars/pp_boy4.svg',
     '/images/avatars/pp_boy5.svg',
-    'https://via.placeholder.com/964x723/1071ef/FFFFFF'
+    '/images/data_rawat/foto_banner.jpg'
   ]
 }
 
