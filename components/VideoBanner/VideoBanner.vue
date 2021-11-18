@@ -73,7 +73,7 @@
                   </v-btn>
                 </hidden>
                 <img
-                  v-if="!play || isMobile || isTablet"
+                  v-if="!play || isMobile "
                   :src="cover"
                   alt="cover"
                 >
