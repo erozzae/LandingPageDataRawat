@@ -24,49 +24,9 @@ export const routerOptions = {
   scrollBehavior,
 
   routes: [{
-    path: "/ar",
-    component: _212618cc,
-    name: "index___ar"
-  }, {
-    path: "/blank-page",
-    component: _1b28d2d0,
-    name: "blank-page___en"
-  }, {
-    path: "/contact",
-    component: _8d61e830,
-    name: "contact___en"
-  }, {
-    path: "/de",
-    component: _212618cc,
-    name: "index___de"
-  }, {
     path: "/id",
     component: _212618cc,
     name: "index___id"
-  }, {
-    path: "/pt",
-    component: _212618cc,
-    name: "index___pt"
-  }, {
-    path: "/zh",
-    component: _212618cc,
-    name: "index___zh"
-  }, {
-    path: "/ar/blank-page",
-    component: _1b28d2d0,
-    name: "blank-page___ar"
-  }, {
-    path: "/ar/contact",
-    component: _8d61e830,
-    name: "contact___ar"
-  }, {
-    path: "/de/blank-page",
-    component: _1b28d2d0,
-    name: "blank-page___de"
-  }, {
-    path: "/de/contact",
-    component: _8d61e830,
-    name: "contact___de"
   }, {
     path: "/id/blank-page",
     component: _1b28d2d0,
@@ -75,26 +35,6 @@ export const routerOptions = {
     path: "/id/contact",
     component: _8d61e830,
     name: "contact___id"
-  }, {
-    path: "/pt/blank-page",
-    component: _1b28d2d0,
-    name: "blank-page___pt"
-  }, {
-    path: "/pt/contact",
-    component: _8d61e830,
-    name: "contact___pt"
-  }, {
-    path: "/zh/blank-page",
-    component: _1b28d2d0,
-    name: "blank-page___zh"
-  }, {
-    path: "/zh/contact",
-    component: _8d61e830,
-    name: "contact___zh"
-  }, {
-    path: "/",
-    component: _212618cc,
-    name: "index___en"
   }],
 
   fallback: false
