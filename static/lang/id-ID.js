@@ -65,7 +65,7 @@ export default () => {
         "cta_subtitle": "Download segera aplikasi datarawat",
         "cta_btn": "Buat Janji Sekarang!",
         "clinic_title": "Kontak Kami",
-        "footer_paragraph": "Tidak terlalu bagus untuk menjadi kenyataan, hanya saja cara perawatan kesehatannya harus sederhana."
+        "footer_paragraph": "Dapatkan kemudahan dalam mengakses rekam medis hanya dengan menggunakan handphone anda"
       }
     })
   })
