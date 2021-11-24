@@ -26,18 +26,7 @@
         >
           <expertise />
         </section>
-        <!-- <section
-          id="ask-doctors"
-          :class="[isMobile ? 'space-top-short' : 'space-top']"
-        >
-          <ask-doctors />
-        </section> -->
-        <!-- <section
-          id="testimonials"
-          class="space-top-short"
-        >
-          <testimonials />
-        </section> -->
+        
         <section class="space-top-short" id="call-to-action">
           <call-action />
         </section>
